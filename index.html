@@ -16,6 +16,23 @@
 
     <style>
       
+       .fixed-bg {
+            background-image: url("");
+            min-height: 250px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #banner {
+            color: rgb(255, 255, 255);
+            position: relative;
+            top: 30px;
+            font-weight: 1000;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+
     </style>
 
   </head>
@@ -101,6 +118,13 @@
   </nav>
    
     this is just a simple website starter
+    <div class="row fixed-bg container-flud">
+      <div class="container w-75">
+          <br><br><br>
+          <h1 id="banner"></h1> 
+      </div>
+  </div>
+  YUP
 
     </body>
 </html>
