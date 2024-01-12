@@ -1,0 +1,80 @@
+h1{
+    text-align: center;
+    margin-top:2em;
+}
+body{
+    background-color: black;
+}
+.section{
+    padding-top:2em;
+    padding-bottom:2em;
+}
+
+.nav-item{
+    color:black;
+    text-decoration: none;
+    
+    background-color: white;
+}
+table{
+    border: .255em solid black;
+    
+}
+td{
+    border: .255em solid black;
+}
+thead{
+    border: .255em solid black;
+}
+tr{
+    border: .255em solid black;
+}
+th{
+    border: .255em solid black;
+}
+nav img {
+    max-width: 20%;
+    max-height: 20%;
+}
+.fixed-bg {
+    background-image: url('https://images.pexels.com/photos/6241298/pexels-photo-6241298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    width:auto;
+    height:500px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    border: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: color;
+    margin-bottom:5em;
+    
+    
+}
+.fixed-bg h1{
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    align-self: center;
+    color:black;
+    background-color: rgba(255, 255, 255, 0.507);
+    
+    
+
+}
+.fixed-bg h2{
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    align-self: center;
+    color:black;
+    background-color: rgba(255, 255, 255, 0.507);
+    
+    
+
+}
+nav{
+    border-bottom: 4px solid #00BBF0;
+    background-color: white;
+    margin-bottom: 0px;
+}
