@@ -14,7 +14,49 @@
         <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
         <title>Menu</title>
         <link rel="stylesheet" type="text/css" href="menuStyle.css" />
-        
+        <style>
+            .fixed-bg {
+            background-image: url("pictures/pexels-pressmaster-3851524.jpg");
+            min-height: 390px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #banner {
+            color: rgb(250, 69, 9);
+            position: relative;
+            text-align: center;
+            top: 30px;
+            font-size: 100px;
+            font-weight: 700;
+            font-family: serif;
+            
+        }
+        .Test{
+            height:300px;
+            width: 350px;
+        }
+
+        .flex-container {
+  display:-ms-flexbox;
+  height:100px;
+  
+}
+ div{
+    color: white;
+    align-items:center;
+ }
+
+ .center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(243, 250, 243);
+  padding: 10px;
+}
+
+        </style>
     </head>
     <body>
         
@@ -25,7 +67,7 @@
         <nav class="navbar sticky-top navbar-expand-sm bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
-                    <img src="#">
+                    <img src="pictures/gdg.png">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
@@ -65,11 +107,10 @@
             </div>
         </nav>
 
-        <div class="fixed-bg">
-            <div class="">
+        <div class="row fixed-bg container-flud">
+            <div class="container w-75">
                 <br><br><br>
-                <h1 id="banner">Game Day Grill</h1> 
-                <h2>Menu</h2>
+                <h1 id="banner">Game Day Bar & Grill </h1> 
             </div>
         </div>
         <div class="row">
@@ -149,55 +190,7 @@
             <div class="col-sm-1"></div>
         </div>
         <hr>
-        <div id="drinks-list">
-            <h2>All drinks</h2>
-            <h3>Juices</h3>
-            <div class="row">
-                <div class="col-sm">
-                    <img src="https://images.pexels.com/photos/1123260/pexels-photo-1123260.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
-                    <p></p>
-                </div>
-                <div class="col-sm">
-                    <img src="https://images.pexels.com/photos/4110406/pexels-photo-4110406.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
-                    <p></p>
-                </div>
-                <div class="col-sm">
-                    <img src="https://images.pexels.com/photos/170366/pexels-photo-170366.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
-                    <p></p>
-                </div>
-                <div class="col-sm">
-                    <img src="https://images.pexels.com/photos/3642/drink-breakfast-orange-juice.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
-                    <p></p>
-                </div>
-
-            </div>
-            <h3>Beers</h3>
-            <div class="row">
-
-
-            </div>
-            <h3>Game Day Specialties</h3>
-            <div class="row">
-
-
-            </div>
-        </div>
-        <div id="apps-list">
-            <h2>All Appetizers</h2>
-        </div>
-        <div id="salads-list">
-            <h2>All Salads</h2>
-        </div>
-        <div id="sandwiches">
-            <h2>All Sandwiches</h2>
-        </div>
-        <div id="pizza-list">
-            <h2>All Pizzas</h2>
-
-        </div>
-        <div id="burger-list">
-            <h2>All Burgers</h2>
-        </div>
+        
         
         
     </body>
