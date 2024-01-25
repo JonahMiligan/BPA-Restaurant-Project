@@ -17,13 +17,56 @@
     <style>
 
     </style>
-
+    <style>
+      
+        .fixed-bg {
+            background-image: url("pictures/pexels-pressmaster-3851524.jpg");
+            min-height: 390px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+         background-size: cover;
+        }
+ 
+         #banner {
+             color: rgb(250, 69, 9);
+             position: relative;
+             text-align: center;
+             top: 30px;
+             font-size: 100px;
+             font-weight: 700;
+             font-family: serif;
+             
+         }
+         .Test{
+             height:300px;
+             width: 350px;
+         }
+ 
+         .flex-container {
+        display:-ms-flexbox;
+        height:100px;
+   
+ }
+  div{
+     color: white;
+     align-items:center;
+  }
+ 
+  .center {
+   margin: auto;
+   width: 50%;
+   border: 3px solid rgb(243, 250, 243);
+   padding: 10px;
+ }
+ 
+     </style>
     </head>
     <body>
         <nav class="navbar sticky-top navbar-expand-sm bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
-                    <img src="bus_tech_media/download.png">
+                    <img src="pictures/gdg.png">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
@@ -62,4 +105,12 @@
                 </div>
             </div>
         </nav>
+        <div class="row fixed-bg container-flud">
+            <div class="container w-75">
+                <br><br><br>
+                <h1 id="banner">Game Day Bar & Grill </h1> 
+            </div>
+        </div>
+        
+        <iframe src="https://www.google.com/maps/d/embed?mid=1lwfDtpQgiDdMpsW0LR9hud4NuW8JeZg&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
     </body>
