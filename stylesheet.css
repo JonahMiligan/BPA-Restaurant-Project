@@ -1,4 +1,6 @@
-
+.body{
+  background-image:url("pictures/joshua-bartell-6vvIBTvL90A-unsplash.jpg");
+}
 .main
 {
     display: block;

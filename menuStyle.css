@@ -23,22 +23,7 @@ nav img {
     max-width: 20%;
     max-height: 20%;
 }
-.fixed-bg {
-    background-image: url('https://images.pexels.com/photos/6241298/pexels-photo-6241298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-    width:auto;
-    height:500px;
-    background-size:cover;
-    background-repeat: no-repeat;
-    margin-top: 0px;
-    border: 50px;
-    background-attachment: fixed;
-    background-position: center;
-    background-blend-mode: color;
-    margin-bottom:5em;
-    min-height: 390px;
 
-    
-}
 .fixed-bg h1{
     width: fit-content;
     margin-right: auto;
